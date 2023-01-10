@@ -1,0 +1,23 @@
+*{
+	box-sizing: border-box;
+ }
+
+body{
+	font-family: "Helvetica Neue", "Helvetica", Helvetica, Arial, sans-serif;
+	font-size: 14px;
+}
+.container{
+	width: 60%;
+	height: 100%;
+	margin: 0 auto;
+}
+
+section{
+	margin: 2em 0;
+	overflow: hidden;
+}
+label{
+	color: #555;
+	display: block;
+	margin-bottom: .2em;
+}
