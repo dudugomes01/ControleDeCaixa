@@ -49,16 +49,29 @@
                         <option value="">-- Selecione --</option>
                         <option value="din">Dinheiro</option>
                         <option value="cartao">Cartão</option>
-                        <option value="cartao">Pix</option>
-                        </select>
+                        <option value="pix">Pix</option>
+                    </select>
                 </label>
             </div>
-            <button id="adicionar-paciente" class="botao bto-principal">Adicionar</button>
+            <button type="button" id="adicionar-paciente" onclick="adicionarLinha()" class="botao bto-principal">Adicionar</button>
         </form>
     </section>
     <div class="divisor">
         <!-- Divisor de linha na Pag -->
     </div>
+
+    
+        <table id="tabela">
+            <tr>
+              <th>Descrição</th>
+              <th>Ref</th>
+              <th>NF</th>
+              <th>Quantidade</th>
+              <th>Valor</th>
+              <th>Forma de pagamento</th>
+            </tr>
+          </table>
+    </main>
 
 
     <script src="js/index.js"></script>
