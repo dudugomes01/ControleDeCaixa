@@ -8,6 +8,13 @@
     <link rel="stylesheet" href="/css/style.css">
 </head>
 <body>
+
+    <header>
+        <div class="container">
+            <h1 class="titulo">Caixa</h1>
+        </div>
+    </header>
+
     <section class="container">
 
         <form id="form-adiciona">
@@ -21,15 +28,15 @@
             </div>
             <div class="grupo">
                 <label for="nf">NF:</label>
-                <input type="text" name="nf" id="notaFiscal" placeholder="Nota Fiscal">
+                <input type="text" name="nf" id="notaFiscal" placeholder="Nota Fiscal" class="campo">
             </div>
             <div class="grupo">
                 <label for="quantidade">Quantidade:</label>
-                <input type="number" value="1" min="1" name="quantidade" id="quantidade" placeholder="Quantidade">
+                <input type="number" value="1" min="1" name="quantidade" id="quantidade" placeholder="Quantidade" class="campo">
             </div>
             <div class="grupo">
                 <label for="valor">Valor:</label>
-                <input type="number" min="1" name="valor" id="valor" placeholder="Valor">
+                <input type="number" min="1" name="valor" id="valor" placeholder="Valor" class="campo">
             </div>
             <!-- <div class="grupo">
                 <label for="formaDePagamento">Forma de Pagamento:</label>
@@ -38,7 +45,7 @@
             <div class="grupo">
                 <label>
                     Forma de Pagamento:
-                    <select name="formaDePagamento" id="formaDePagamento">
+                    <select name="formaDePagamento" class="campo" id="formaDePagamento">
                         <option value="">-- Selecione --</option>
                         <option value="din">Dinheiro</option>
                         <option value="cartao">Cartão</option>
@@ -46,9 +53,12 @@
                         </select>
                 </label>
             </div>
-            
+            <button id="adicionar-paciente" class="botao bto-principal">Adicionar</button>
         </form>
     </section>
+    <div class="divisor">
+        <!-- Divisor de linha na Pag -->
+    </div>
 
 
     <script src="js/index.js"></script>

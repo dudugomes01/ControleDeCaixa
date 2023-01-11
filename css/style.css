@@ -1,23 +1,92 @@
 *{
 	box-sizing: border-box;
+	margin: 0;
  }
 
 body{
-	font-family: "Helvetica Neue", "Helvetica", Helvetica, Arial, sans-serif;
 	font-size: 14px;
 }
-.container{
-	width: 60%;
-	height: 100%;
-	margin: 0 auto;
+header{
+	background-color: #d30c94;
+	height: 3em;
+	color: #FFF;
+	margin-bottom: 50px;
 }
 
+header h1{
+	font-size: 2em;
+	display:inline-block;
+	vertical-align:	middle;
+	margin: 0;
+}
+
+header .container:before{
+	content: '';
+	display:inline-block;
+	height: 100%;
+	vertical-align:	middle;
+}
+.container{
+	width: 40%;
+	height: 100%;
+	margin: 0 auto;
+    margin-top: 0px;
+}
 section{
 	margin: 2em 0;
 	overflow: hidden;
 }
 label{
-	color: #555;
+    font-size: 20px;
+	color: rgb(32, 31, 31);
 	display: block;
-	margin-bottom: .2em;
+	margin-bottom: 0px;
+}
+.campo{
+    font-size: 15px;
+	margin-bottom: 15px;
+	padding-bottom: 1em;
+	width: 100%;
+	border: 1px solid #ccc;
+	padding: 10px;
+	
+}
+.grupo{
+	padding-bottom: 5px;
+	
+}
+button{
+	padding: .5em 2em;
+	border: 0;
+	border-bottom: 3px solid;
+	font-size: 1.2em;
+	cursor: pointer;
+	margin: 0 auto;
+	color: #fff;
+	background-color:#d30c94;
+	border-color: #04324c;	
+    display: block;
+    clear: both;
+}
+button:active{
+	margin-top:0px;
+	border: 0;
+}
+button[disabled=disabled], button:disabled {
+    background-color: gray;
+	border-color: darkgray;
+}
+
+#adicionar-paciente{
+    margin-top: 20px;
+}
+#adicionar-paciente:hover{
+	background-color: #01111a;
+	border-color: #d30c94;	
+}
+.divisor{
+	margin: 0 auto;
+	width: 80%;
+	border-bottom: 1px solid #ccc;
+	padding-bottom: 50px;
 }
