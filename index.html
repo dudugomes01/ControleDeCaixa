@@ -16,7 +16,9 @@
     </header>
 
     <section class="container">
+        <ul id="mensagens-erro">
 
+		</ul>
         <form id="form-adiciona">
                 <div class="grupo">
                     <label for="nome">Descrição:</label>
@@ -43,6 +45,10 @@
                 <input type="text" id="formaDePagamento">
             </div> -->
             <div class="grupo">
+                <label for="nome">Nº do cliente:</label>
+                <input type="number" id="nDoCliente" min="1" name="nDoCliente" placeholder="Nº do cliente" class="campo">
+            </div>
+            <div class="grupo">
                 <label>
                     Forma de Pagamento:
                     <select name="formaDePagamento" class="campo" id="formaDePagamento">
@@ -68,6 +74,8 @@
               <th>NF</th>
               <th>Quantidade</th>
               <th>Valor</th>
+              <th>Nº do cliente</th>
+              <!-- <th>Valor Total</th> -->
               <th>Forma de pagamento</th>
             </tr>
           </table>

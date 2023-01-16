@@ -103,7 +103,8 @@ button[disabled=disabled], button:disabled {
 	margin: 30px 0;
 }
 table{
-	width: 100%;
+	width: 80%;
+	margin: 0 auto;
 	margin-bottom : .5em;
     table-layout: fixed;
 
@@ -119,4 +120,9 @@ td, th {
 th{
 	font-weight: bold;
 	background-color: #ff79d4;
+}
+
+#mensagens-erro{
+	color: red;
+	padding: 10px 0px;
 }
