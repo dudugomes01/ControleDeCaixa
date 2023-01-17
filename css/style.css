@@ -49,7 +49,7 @@ section{
 }
 label{
 	margin-top: 15px;
-    font-size: 20px;
+    font-size: 16px;
 	color: rgb(255, 255, 255);
 	display: block;
 	margin-bottom: 0px;
@@ -100,12 +100,14 @@ button[disabled=disabled], button:disabled {
 	font-size: 12px;
 	margin: 3px 0 0 1px;
 	color: red;
+	display: none;
 }
 .divisor{
 	margin: 0 auto;
 	width: 80%;
 	border-bottom: 1px solid #ccc;
 	padding-bottom: 50px;
+	margin-bottom: 50px;
 }
 
 /* Tabela com os produtos */
@@ -118,6 +120,9 @@ button[disabled=disabled], button:disabled {
 .container-tabela h2{
 	margin: 30px 0;
 }
+.removDisplay{
+	display: none;
+} 
 table{
 	width: 80%;
 	margin: 0 auto;
@@ -127,7 +132,7 @@ table{
 }
 
 td, th {
-	padding: .7em;
+	padding: 4px;
 	margin: 0;
 	border: 1px solid #a37494;
 	text-align: center;
@@ -142,4 +147,10 @@ th{
 #mensagens-erro{
 	color: red;
 	padding: 10px 0px;
+}
+#imgLixo{
+	cursor: pointer;
+}
+.excluir-btn{
+	margin: 5px 20px
 }
