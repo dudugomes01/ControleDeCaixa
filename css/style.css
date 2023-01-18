@@ -43,6 +43,16 @@ header .container:before{
 	border-radius: 20px;
 	background-color: #313131;
 }
+@media screen and (max-width: 401px ){
+	.container-form{
+		width: 80%;
+		
+	}
+	table{
+		display: block;
+	}
+	
+}
 section{
 	margin: 2em 0;
 	overflow: hidden;
