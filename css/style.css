@@ -45,8 +45,7 @@ header .container:before{
 }
 @media screen and (max-width: 401px ){
 	.container-form{
-		width: 80%;
-		
+		width: 80%;	
 	}
 	table{
 		display: block;
